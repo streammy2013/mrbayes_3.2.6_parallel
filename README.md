@@ -68,7 +68,7 @@ Software Requirements:
 	
 	to the end of the line.
 	
-	If you want to use multi-threaded version:
+   If you want to use multi-threaded version:
 	
 	(1) Open 'bayes.h':
 		
@@ -110,7 +110,7 @@ For example, if 'mb' is in the same directory as your data:
 For more operating and experiment details, please see 'MrBayes version 3.2 Manual' and our paper " A Three-Level Parallel Algorithm for MrBayes 3.2 "
 
 3. License and Warranty
-==================
+
 CPU parallel MrBayes is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 The program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details
 
