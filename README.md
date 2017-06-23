@@ -1,8 +1,9 @@
 # mrbayes_3.2.6_parallel
 
                       CPU Parallel MrBayes Manual
+		      
 Mingjie Zhao, Qiang Ren, Ruikang Deng, Yilin Wang, Mingming Ren, Gang Wang, Xiaoguang Liu
-																                         Jun 21, 2017
+																                                                                                     Jun 21, 2017
 1. Introduction
 2. Getting Started
 3. License and Warranty
