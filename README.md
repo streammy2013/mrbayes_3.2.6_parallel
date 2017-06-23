@@ -47,9 +47,10 @@ Software Requirements:
     If using MPI:
 		
     	./configure --enable-mpi --with-beagle=no
+    
     else:
 
-	./configure --with-beagle=no
+    	./configure --with-beagle=no
 
 (d)Set other parallel options:
      
@@ -64,6 +65,7 @@ Software Requirements:
 	(2) if you want to use AVX, then open 'Makefile', find 'CFLAGS', and append		
 	
  		 -mavx
+	
 	to the end of the line.
 	
 	If you want to use multi-threaded version:
@@ -75,6 +77,7 @@ Software Requirements:
 	(2) Open 'likelihood.h'
 		
 		find 'NUM_THREAD' , then change the number to your desired number of threads.
+	
 	(3) Open 'Makefile':
 		
 	   find 'CFLAGS', then append
@@ -99,7 +102,7 @@ if compile without mpi:
 	./mb (your data address)
 otherwise: 
 
-	mpirun ¨Cn (number of process) ./mb (your data address)
+	mpirun -n (number of process) ./mb (your data address)
 For example, if 'mb' is in the same directory as your data: 
 
 	mpirun -n 4 ./mb data/dataset1.nex 
